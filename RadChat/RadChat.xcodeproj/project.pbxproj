@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144923541A585F060009D306 /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 144923531A585F060009D306 /* RCConstants.m */; };
+		144923581A5865A80009D306 /* RCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144923571A5865A80009D306 /* RCProfileViewController.m */; };
+		14E678801A57BF68000AD141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6787F1A57BF68000AD141 /* main.m */; };
+		14E678831A57BF68000AD141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E678821A57BF68000AD141 /* AppDelegate.m */; };
+		14E678861A57BF68000AD141 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E678851A57BF68000AD141 /* FirstViewController.m */; };
+		14E678891A57BF68000AD141 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E678881A57BF68000AD141 /* SecondViewController.m */; };
+		14E6788C1A57BF68000AD141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E6788A1A57BF68000AD141 /* Main.storyboard */; };
+		14E6788E1A57BF68000AD141 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E6788D1A57BF68000AD141 /* Images.xcassets */; };
+		14E678911A57BF68000AD141 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E6788F1A57BF68000AD141 /* LaunchScreen.xib */; };
+		14E6789D1A57BF68000AD141 /* RadChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6789C1A57BF68000AD141 /* RadChatTests.m */; };
+		14E6791E1A57C766000AD141 /* RCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6791D1A57C766000AD141 /* RCLoginViewController.m */; };
+		C9C87CF67857DCCF247527D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74754D43F419BD3CA0D8F210 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E678971A57BF68000AD141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E678721A57BF68000AD141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E678791A57BF68000AD141;
+			remoteInfo = RadChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144923521A585F060009D306 /* RCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCConstants.h; sourceTree = "<group>"; };
+		144923531A585F060009D306 /* RCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCConstants.m; sourceTree = "<group>"; };
+		144923561A5865A80009D306 /* RCProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCProfileViewController.h; sourceTree = "<group>"; };
+		144923571A5865A80009D306 /* RCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCProfileViewController.m; sourceTree = "<group>"; };
+		14E6787A1A57BF68000AD141 /* RadChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E6787E1A57BF68000AD141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E6787F1A57BF68000AD141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E678811A57BF68000AD141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14E678821A57BF68000AD141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14E678841A57BF68000AD141 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		14E678851A57BF68000AD141 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		14E678871A57BF68000AD141 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		14E678881A57BF68000AD141 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		14E6788B1A57BF68000AD141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E6788D1A57BF68000AD141 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14E678901A57BF68000AD141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14E678961A57BF68000AD141 /* RadChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E6789B1A57BF68000AD141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E6789C1A57BF68000AD141 /* RadChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadChatTests.m; sourceTree = "<group>"; };
+		14E6791C1A57C766000AD141 /* RCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLoginViewController.h; sourceTree = "<group>"; };
+		14E6791D1A57C766000AD141 /* RCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLoginViewController.m; sourceTree = "<group>"; };
+		1BB4C782F8A0BBE1B2BB45FA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		74754D43F419BD3CA0D8F210 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFE30EA74305FBD9B5EFE9A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E678771A57BF68000AD141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C87CF67857DCCF247527D2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E678931A57BF68000AD141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144923551A58658E0009D306 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				144923561A5865A80009D306 /* RCProfileViewController.h */,
+				144923571A5865A80009D306 /* RCProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		14E678711A57BF68000AD141 = {
+			isa = PBXGroup;
+			children = (
+				14E6787C1A57BF68000AD141 /* RadChat */,
+				14E678991A57BF68000AD141 /* RadChatTests */,
+				14E6787B1A57BF68000AD141 /* Products */,
+				EA25C892F6709F73143C2173 /* Pods */,
+				5C56DEC20CD8B41AE60AA998 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14E6787B1A57BF68000AD141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E6787A1A57BF68000AD141 /* RadChat.app */,
+				14E678961A57BF68000AD141 /* RadChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E6787C1A57BF68000AD141 /* RadChat */ = {
+			isa = PBXGroup;
+			children = (
+				144923551A58658E0009D306 /* Profile */,
+				14E6791B1A57C753000AD141 /* Login */,
+				14E678811A57BF68000AD141 /* AppDelegate.h */,
+				14E678821A57BF68000AD141 /* AppDelegate.m */,
+				14E678841A57BF68000AD141 /* FirstViewController.h */,
+				14E678851A57BF68000AD141 /* FirstViewController.m */,
+				14E678871A57BF68000AD141 /* SecondViewController.h */,
+				14E678881A57BF68000AD141 /* SecondViewController.m */,
+				14E6788A1A57BF68000AD141 /* Main.storyboard */,
+				14E6788D1A57BF68000AD141 /* Images.xcassets */,
+				14E6788F1A57BF68000AD141 /* LaunchScreen.xib */,
+				14E6787D1A57BF68000AD141 /* Supporting Files */,
+			);
+			path = RadChat;
+			sourceTree = "<group>";
+		};
+		14E6787D1A57BF68000AD141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E6787E1A57BF68000AD141 /* Info.plist */,
+				14E6787F1A57BF68000AD141 /* main.m */,
+				144923521A585F060009D306 /* RCConstants.h */,
+				144923531A585F060009D306 /* RCConstants.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E678991A57BF68000AD141 /* RadChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E6789C1A57BF68000AD141 /* RadChatTests.m */,
+				14E6789A1A57BF68000AD141 /* Supporting Files */,
+			);
+			path = RadChatTests;
+			sourceTree = "<group>";
+		};
+		14E6789A1A57BF68000AD141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E6789B1A57BF68000AD141 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E6791B1A57C753000AD141 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				14E6791C1A57C766000AD141 /* RCLoginViewController.h */,
+				14E6791D1A57C766000AD141 /* RCLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		5C56DEC20CD8B41AE60AA998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74754D43F419BD3CA0D8F210 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA25C892F6709F73143C2173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB4C782F8A0BBE1B2BB45FA /* Pods.debug.xcconfig */,
+				ECFE30EA74305FBD9B5EFE9A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E678791A57BF68000AD141 /* RadChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E678A01A57BF68000AD141 /* Build configuration list for PBXNativeTarget "RadChat" */;
+			buildPhases = (
+				628A1A12664626EC15791EA5 /* Check Pods Manifest.lock */,
+				14E678761A57BF68000AD141 /* Sources */,
+				14E678771A57BF68000AD141 /* Frameworks */,
+				14E678781A57BF68000AD141 /* Resources */,
+				03B9096B80F6554A6E845F76 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadChat;
+			productName = RadChat;
+			productReference = 14E6787A1A57BF68000AD141 /* RadChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E678951A57BF68000AD141 /* RadChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E678A31A57BF68000AD141 /* Build configuration list for PBXNativeTarget "RadChatTests" */;
+			buildPhases = (
+				14E678921A57BF68000AD141 /* Sources */,
+				14E678931A57BF68000AD141 /* Frameworks */,
+				14E678941A57BF68000AD141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E678981A57BF68000AD141 /* PBXTargetDependency */,
+			);
+			name = RadChatTests;
+			productName = RadChatTests;
+			productReference = 14E678961A57BF68000AD141 /* RadChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E678721A57BF68000AD141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.mostbestawesome;
+				TargetAttributes = {
+					14E678791A57BF68000AD141 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					14E678951A57BF68000AD141 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 14E678791A57BF68000AD141;
+					};
+				};
+			};
+			buildConfigurationList = 14E678751A57BF68000AD141 /* Build configuration list for PBXProject "RadChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E678711A57BF68000AD141;
+			productRefGroup = 14E6787B1A57BF68000AD141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E678791A57BF68000AD141 /* RadChat */,
+				14E678951A57BF68000AD141 /* RadChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E678781A57BF68000AD141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E6788C1A57BF68000AD141 /* Main.storyboard in Resources */,
+				14E678911A57BF68000AD141 /* LaunchScreen.xib in Resources */,
+				14E6788E1A57BF68000AD141 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E678941A57BF68000AD141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03B9096B80F6554A6E845F76 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628A1A12664626EC15791EA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E678761A57BF68000AD141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E678891A57BF68000AD141 /* SecondViewController.m in Sources */,
+				144923581A5865A80009D306 /* RCProfileViewController.m in Sources */,
+				14E678831A57BF68000AD141 /* AppDelegate.m in Sources */,
+				14E678861A57BF68000AD141 /* FirstViewController.m in Sources */,
+				14E6791E1A57C766000AD141 /* RCLoginViewController.m in Sources */,
+				144923541A585F060009D306 /* RCConstants.m in Sources */,
+				14E678801A57BF68000AD141 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E678921A57BF68000AD141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E6789D1A57BF68000AD141 /* RadChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E678981A57BF68000AD141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E678791A57BF68000AD141 /* RadChat */;
+			targetProxy = 14E678971A57BF68000AD141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14E6788A1A57BF68000AD141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E6788B1A57BF68000AD141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E6788F1A57BF68000AD141 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E678901A57BF68000AD141 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E6789E1A57BF68000AD141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E6789F1A57BF68000AD141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E678A11A57BF68000AD141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB4C782F8A0BBE1B2BB45FA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14E678A21A57BF68000AD141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFE30EA74305FBD9B5EFE9A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14E678A41A57BF68000AD141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RadChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadChat.app/RadChat";
+			};
+			name = Debug;
+		};
+		14E678A51A57BF68000AD141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RadChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadChat.app/RadChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E678751A57BF68000AD141 /* Build configuration list for PBXProject "RadChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E6789E1A57BF68000AD141 /* Debug */,
+				14E6789F1A57BF68000AD141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E678A01A57BF68000AD141 /* Build configuration list for PBXNativeTarget "RadChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E678A11A57BF68000AD141 /* Debug */,
+				14E678A21A57BF68000AD141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E678A31A57BF68000AD141 /* Build configuration list for PBXNativeTarget "RadChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E678A41A57BF68000AD141 /* Debug */,
+				14E678A51A57BF68000AD141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E678721A57BF68000AD141 /* Project object */;
+}
